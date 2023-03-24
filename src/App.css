@@ -1,11 +1,20 @@
-.home{
-    padding-top:50px
-}
-.container{
+.topbarApp {
     display: flex;
+    flex-direction: column;
 
 }
-.others{
-    flex: 4;
-    background-color: aquamarine;
+
+.containerApp {
+    display: flex;
+    margin-top: 50px
+
 }
+.sidebarApp{
+    flex: 1;
+
+}
+.pagesApp {
+    flex: 4;
+
+}
+

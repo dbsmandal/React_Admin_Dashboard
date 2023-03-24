@@ -8,7 +8,7 @@ import WidgetLg from '../../Components/WidgetLg/WidgetLg';
 
 const Home = () => {
   return (
-    <div className='home_container'>
+    <div className='home'>
         <FeaturedInfo/>
         <Chart data={userData} title="User Analytics" grid dataKey="Active User"/>
         <div className="widget">

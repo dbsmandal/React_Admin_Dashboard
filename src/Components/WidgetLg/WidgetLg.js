@@ -10,12 +10,15 @@ const WidgetLg = () => {
     <div className="widgetLg">
       <h3 className="widgetLgTitle">Latest transactions</h3>
       <table className="widgetLgTable">
-        <tr className="widgetLgTr">
+       <thead>
+       <tr className="widgetLgTr">
           <th className="widgetLgTh">Customer</th>
           <th className="widgetLgTh">Date</th>
           <th className="widgetLgTh">Amount</th>
           <th className="widgetLgTh">Status</th>
         </tr>
+       </thead>
+        <tbody>
         <tr className="widgetLgTr">
           <td className="widgetLgUser">
             <img
@@ -23,7 +26,7 @@ const WidgetLg = () => {
               alt=""
               className="widgetLgImg"
             />
-            <span className="widgetLgName">Susan Carol</span>
+            <span className="widgetLgName">Dipak Mandal</span>
           </td>
           <td className="widgetLgDate">2 Jun 2021</td>
           <td className="widgetLgAmount">$122.00</td>
@@ -38,7 +41,7 @@ const WidgetLg = () => {
               alt=""
               className="widgetLgImg"
             />
-            <span className="widgetLgName">Susan Carol</span>
+            <span className="widgetLgName">Dipak Mandal</span>
           </td>
           <td className="widgetLgDate">2 Jun 2021</td>
           <td className="widgetLgAmount">$122.00</td>
@@ -53,7 +56,7 @@ const WidgetLg = () => {
               alt=""
               className="widgetLgImg"
             />
-            <span className="widgetLgName">Susan Carol</span>
+            <span className="widgetLgName">Dipak Mandal</span>
           </td>
           <td className="widgetLgDate">2 Jun 2021</td>
           <td className="widgetLgAmount">$122.00</td>
@@ -68,7 +71,7 @@ const WidgetLg = () => {
               alt=""
               className="widgetLgImg"
             />
-            <span className="widgetLgName">Susan Carol</span>
+            <span className="widgetLgName">Dipak Mandal</span>
           </td>
           <td className="widgetLgDate">2 Jun 2021</td>
           <td className="widgetLgAmount">$122.00</td>
@@ -76,6 +79,7 @@ const WidgetLg = () => {
             <Button type="Approved" />
           </td>
         </tr>
+        </tbody>
       </table>
     </div>
   )

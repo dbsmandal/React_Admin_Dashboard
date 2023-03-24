@@ -24,7 +24,9 @@
     list-style: none;
     padding: 5px;
   }
-  
+  .sidebar_List :link{
+    list-style: none;
+  }
   .sidebar_List_Item {
     padding: 5px;
     cursor: pointer;
