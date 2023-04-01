@@ -5,6 +5,9 @@ import Home from './Pages/Home/Home';
 import UserList from './Pages/userList/UserList'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SingleUser from './Pages/SingleUser/SingleUser';
+import NewUser from "./Pages/newUser/NewUser"
+import ProductList from './Pages/ProductList/ProductList';
+import SingleProduct from "./Pages/SingleProduct/SingleProduct"
 
 
 function App() {
@@ -27,6 +30,11 @@ function App() {
               <Route exact path='/' element={<Home />} />
               <Route  path='/users' element={<UserList />} />
               <Route  path='/user/:id' element={<SingleUser/>} />
+              <Route  path='/newUser' element={<NewUser/>} />
+              <Route  path="/products" element={<ProductList/>}/>
+              <Route  path="/product/:id" element={<SingleProduct/>}/>
+
+
 
             </Routes>
             </div>

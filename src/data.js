@@ -172,36 +172,36 @@ export const productRows = [
     name: "Apple Airpods",
     img:
       "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    stock: 123,
+    stock: 120,
     status: "active",
-    price: "$120.00",
+    price: "$180.00",
   },
   {
     id: 3,
     name: "Apple Airpods",
     img:
       "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    stock: 123,
+    stock: 223,
     status: "active",
-    price: "$120.00",
+    price: "$190.00",
   },
   {
     id: 4,
     name: "Apple Airpods",
     img:
       "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    stock: 123,
+    stock: 253,
     status: "active",
-    price: "$120.00",
+    price: "$950.00",
   },
   {
     id: 5,
     name: "Apple Airpods",
     img:
       "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    stock: 123,
+    stock: 650,
     status: "active",
-    price: "$120.00",
+    price: "$30.00",
   },
   {
     id: 6,
