@@ -27,6 +27,8 @@
 .topbar_icons{
     position: relative;
     margin-right: 10px;
+    cursor: pointer;
+
 
 }
 .icons_badge{
@@ -41,6 +43,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+
 
 }
 .profile_img{

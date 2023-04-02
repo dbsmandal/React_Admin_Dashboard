@@ -8,6 +8,7 @@ import SingleUser from './Pages/SingleUser/SingleUser';
 import NewUser from "./Pages/newUser/NewUser"
 import ProductList from './Pages/ProductList/ProductList';
 import SingleProduct from "./Pages/SingleProduct/SingleProduct"
+import NewProduct from './Pages/NewProduct/NewProduct';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
               <Route  path='/newUser' element={<NewUser/>} />
               <Route  path="/products" element={<ProductList/>}/>
               <Route  path="/product/:id" element={<SingleProduct/>}/>
+              <Route  path="/newProduct" element={<NewProduct/>}/>
 
 
 

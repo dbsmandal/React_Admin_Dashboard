@@ -21,7 +21,7 @@
     border: none;
     padding: 5px;
     cursor: pointer;
-    background-color: tomato;
+    background-color: teal;
     color: white;
     font-weight: 600;
 }
@@ -45,7 +45,7 @@
 .single_products_Info {
     flex: 1;
     margin: 0px 20px;
-    padding: 30px;
+    padding: 15px;
     border-radius: 10px;
     cursor: pointer;
     -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
@@ -53,7 +53,37 @@
 }
 .single_products_Info_card{
     display: flex;
+    flex-direction: column;
+    row-gap: 5px;
 }
+.single_products_Info_img_title{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.card_image{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.single_products_Info_data{
+    display: flex;
+    flex-direction: column;
+    column-gap: 2px;
+}
+.spans{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
+.span_value{
+    font-weight: 300;
+}
+
+
 .single_products_update {
     flex: 1;
     margin: 0px 20px;
@@ -62,4 +92,51 @@
     cursor: pointer;
     -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.update_form_data{
+    display: flex;
+    justify-content: space-between;
+}
+
+.update_form_data_left{
+    display: flex;
+    flex-direction: column;
+}
+.update_form_data_left label{
+    margin-bottom: 10px;
+    color: gray;
+}
+.update_form_data_left input{
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 2p solid gray;
+}
+.update_form_data_left select{
+    margin-bottom: 10px;
+}
+.update_form_data_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.update_form_data_right_upload{
+    display: flex;
+    align-items: center;
+}
+.update_form_data_image{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.product_update_button{
+    margin-top: 10px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: teal;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
 }
